@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+/* 
+body {
+    border: 5px solid black;
+} */
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.black {
+    color: black;
+}
+
+header,
+footer {
+    color: blue;
+    text-align: center;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+.w30 {
+    width: 35%;
+}
+
+.w70 {
+    width: 65%;
+}
+
+
+.input {
+    color: blue;
+}
+
+.input_checked {
+    color: green;
+}
+
+
+.test {
+    color: green;
+}
+
+.package {
+    color: black;
+}
+
+.package h4 {
+    color: red;
+}
+
+.package h5,
+p {
+    color: black;
+}
+
+.packageKQ h5,
+.packageKQ h4 {
+    color: red;
+}
+
+table,
+th,
+td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+@media only screen and (max-width: 810px) {
+    .my_hide {
+        display: none;
+    }
+
+    header,
+    footer {
+        color: red;
+    }
+}
